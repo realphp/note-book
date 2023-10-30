@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-30T12:02:02.143Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" etag="ybq6G7z1nw1CJCc3xlMl" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-30T12:08:14.506Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" etag="2sfZwR_SlfjK7WFWcih-" version="22.0.8" type="github">
   <diagram name="第 1 页" id="Nvfa4YNIevCubGbYaG3O">
     <mxGraphModel dx="1426" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,6 +10,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1pz00MVEpj-N78Dze2-A-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1pz00MVEpj-N78Dze2-A-1" target="1pz00MVEpj-N78Dze2-A-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1pz00MVEpj-N78Dze2-A-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1pz00MVEpj-N78Dze2-A-1" target="1pz00MVEpj-N78Dze2-A-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1pz00MVEpj-N78Dze2-A-1" value="数据中心埋点记录：b2b_dwd_vis_site_visit_record" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -43,8 +46,35 @@
         <mxCell id="1pz00MVEpj-N78Dze2-A-11" value="buyer&amp;amp;seller店铺流量表&lt;br&gt;b2b_dws_vis_buyer_seller_store_visit_1d" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="417.5" y="420" width="265" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1pz00MVEpj-N78Dze2-A-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="420" width="120" height="60" as="geometry" />
+        <mxCell id="1pz00MVEpj-N78Dze2-A-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1pz00MVEpj-N78Dze2-A-21" target="1pz00MVEpj-N78Dze2-A-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1pz00MVEpj-N78Dze2-A-21" value="seller店铺流量表&lt;br&gt;b2b_dws_vis_seller_store_visit_1d" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="410" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1pz00MVEpj-N78Dze2-A-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1pz00MVEpj-N78Dze2-A-23" target="1pz00MVEpj-N78Dze2-A-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1pz00MVEpj-N78Dze2-A-23" value="buyer&amp;amp;product_id流量表&lt;br&gt;b2b_dws_vis_buyer_product_visit_1d" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="420" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1pz00MVEpj-N78Dze2-A-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1pz00MVEpj-N78Dze2-A-25" target="1pz00MVEpj-N78Dze2-A-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1pz00MVEpj-N78Dze2-A-25" value="product_id流量表&lt;br&gt;b2b_dws_vis_product_visit_1d" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="795" y="550" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1pz00MVEpj-N78Dze2-A-29" value="view_b2b_dws_vis_product_visit_1w&lt;br&gt;view_b2b_dws_vis_product_visit_1m&lt;br&gt;view_b2b_dws_vis_product_visit_1q&lt;br&gt;view_b2b_dws_vis_product_visit_1y" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="792.5" y="710" width="215" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1pz00MVEpj-N78Dze2-A-31" value="基于日统计生成，周，月，季度，年的物化视图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="900" y="650" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1pz00MVEpj-N78Dze2-A-32" value="view_b2b_dws_vis_seller_store_visit_1w&lt;br&gt;view_b2b_dws_vis_seller_store_visit_1m&lt;br&gt;view_b2b_dws_vis_seller_store_visit_1q&lt;br&gt;view_b2b_dws_vis_seller_store_visit_1y" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="580" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1pz00MVEpj-N78Dze2-A-35" value="基于日统计生成，周，月，季度，年的物化视图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="520" width="280" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
