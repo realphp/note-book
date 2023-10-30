@@ -1,32 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2023-10-30T08:27:28.781Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" etag="7E4HvMtIzLJWr6d1DloH" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-30T12:02:02.143Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" etag="ybq6G7z1nw1CJCc3xlMl" version="22.0.8" type="github">
   <diagram name="第 1 页" id="Nvfa4YNIevCubGbYaG3O">
     <mxGraphModel dx="1426" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="1pz00MVEpj-N78Dze2-A-1" value="数据中心埋点记录：b2b_dwd_vis_site_visit_record" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="230" width="260" height="80" as="geometry" />
+        <mxCell id="1pz00MVEpj-N78Dze2-A-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1pz00MVEpj-N78Dze2-A-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="544" y="420" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="1pz00MVEpj-N78Dze2-A-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1pz00MVEpj-N78Dze2-A-2" target="1pz00MVEpj-N78Dze2-A-1">
+        <mxCell id="1pz00MVEpj-N78Dze2-A-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1pz00MVEpj-N78Dze2-A-1" target="1pz00MVEpj-N78Dze2-A-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1pz00MVEpj-N78Dze2-A-1" value="数据中心埋点记录：b2b_dwd_vis_site_visit_record" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="230" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1pz00MVEpj-N78Dze2-A-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1pz00MVEpj-N78Dze2-A-2" target="1pz00MVEpj-N78Dze2-A-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1pz00MVEpj-N78Dze2-A-2" value="埋点库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="60" width="120" height="60" as="geometry" />
+          <mxGeometry x="850" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1pz00MVEpj-N78Dze2-A-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1pz00MVEpj-N78Dze2-A-3" target="1pz00MVEpj-N78Dze2-A-1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="1pz00MVEpj-N78Dze2-A-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1pz00MVEpj-N78Dze2-A-3" target="1pz00MVEpj-N78Dze2-A-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="270" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="1pz00MVEpj-N78Dze2-A-3" value="yzc库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="240" width="120" height="60" as="geometry" />
+          <mxGeometry x="130" y="60" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1pz00MVEpj-N78Dze2-A-5" value="DTS同步&lt;br&gt;oc_customer，oc_product" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="220" y="220" width="180" height="50" as="geometry" />
+          <mxGeometry x="10" y="170" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1pz00MVEpj-N78Dze2-A-7" value="建立外表&lt;br&gt;ext_matomo_log_link_visit_action&lt;br&gt;ext_matomo_log_action&lt;br&gt;ext_matomo_log_visit" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="460" y="130" width="60" height="30" as="geometry" />
+          <mxGeometry x="980" y="190" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1pz00MVEpj-N78Dze2-A-10" value="通过判断visit_id来判断是否重复插入，以保证增量插入时插入数据的一致性&lt;br&gt;idlink_va &amp;gt; (&lt;span style=&quot;box-sizing: border-box; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(167, 29, 93); font-family: Consolas, Menlo, Courier, monospace; font-size: 14px; text-align: start;&quot; class=&quot;hljs-keyword&quot;&gt;SELECT&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Consolas, Menlo, Courier, monospace; font-size: 14px; text-align: start; background-color: rgb(248, 248, 248);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(167, 29, 93); font-family: Consolas, Menlo, Courier, monospace; font-size: 14px; text-align: start;&quot; class=&quot;hljs-keyword&quot;&gt;max&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Consolas, Menlo, Courier, monospace; font-size: 14px; text-align: start; background-color: rgb(248, 248, 248);&quot;&gt;(visit_id) &lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); color: rgb(167, 29, 93); font-family: Consolas, Menlo, Courier, monospace; font-size: 14px; text-align: start;&quot; class=&quot;hljs-keyword&quot;&gt;from&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Consolas, Menlo, Courier, monospace; font-size: 14px; text-align: start; background-color: rgb(248, 248, 248);&quot;&gt; b2b_dwd_vis_site_visit_record)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="380" y="320" width="520" height="40" as="geometry" />
+          <mxGeometry x="290" y="185" width="520" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1pz00MVEpj-N78Dze2-A-11" value="buyer&amp;amp;seller店铺流量表&lt;br&gt;b2b_dws_vis_buyer_seller_store_visit_1d" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="417.5" y="420" width="265" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1pz00MVEpj-N78Dze2-A-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="420" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
