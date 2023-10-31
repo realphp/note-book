@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-30T12:08:14.506Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" etag="2sfZwR_SlfjK7WFWcih-" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-31T08:03:39.887Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" etag="brJ2t9et6kOfmHQBWK16" version="22.0.8" type="github">
   <diagram name="第 1 页" id="Nvfa4YNIevCubGbYaG3O">
     <mxGraphModel dx="1426" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,8 +34,8 @@
         <mxCell id="1pz00MVEpj-N78Dze2-A-3" value="yzc库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1pz00MVEpj-N78Dze2-A-5" value="DTS同步&lt;br&gt;oc_customer，oc_product" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="10" y="170" width="180" height="50" as="geometry" />
+        <mxCell id="1pz00MVEpj-N78Dze2-A-5" value="DTS同步&lt;br&gt;oc_customer&lt;br&gt;oc_product" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="170" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1pz00MVEpj-N78Dze2-A-7" value="建立外表&lt;br&gt;ext_matomo_log_link_visit_action&lt;br&gt;ext_matomo_log_action&lt;br&gt;ext_matomo_log_visit" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="980" y="190" width="60" height="30" as="geometry" />
@@ -44,7 +44,7 @@
           <mxGeometry x="290" y="185" width="520" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1pz00MVEpj-N78Dze2-A-11" value="buyer&amp;amp;seller店铺流量表&lt;br&gt;b2b_dws_vis_buyer_seller_store_visit_1d" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="417.5" y="420" width="265" height="60" as="geometry" />
+          <mxGeometry x="409" y="420" width="265" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1pz00MVEpj-N78Dze2-A-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1pz00MVEpj-N78Dze2-A-21" target="1pz00MVEpj-N78Dze2-A-32">
           <mxGeometry relative="1" as="geometry" />
@@ -75,6 +75,12 @@
         </mxCell>
         <mxCell id="1pz00MVEpj-N78Dze2-A-35" value="基于日统计生成，周，月，季度，年的物化视图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="240" y="520" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1pz00MVEpj-N78Dze2-A-36" value="物化视图刷新&lt;br&gt;执行完基表任务后，手动刷新" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="610" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1pz00MVEpj-N78Dze2-A-37" value="物化视图刷新&lt;br&gt;执行完基表任务后，手动刷新" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="745" width="170" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
