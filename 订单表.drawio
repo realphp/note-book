@@ -1,9 +1,71 @@
-<mxfile host="app.diagrams.net" modified="2023-10-31T09:25:11.098Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" version="22.0.8" etag="-WlO4HFPeZWngv4vwKWI" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-02T12:28:05.475Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" etag="3D37IQ-vadmjdktKiOSW" version="22.0.8" type="github">
   <diagram name="第 1 页" id="kppbgp-9VAlATUrjZulN">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BEoCvooL8ucvdSw646bj-1" value="数据中心库：采购订单明细表&lt;br&gt;b2b_dwd_trd_complete_purchase_order" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="110" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BEoCvooL8ucvdSw646bj-3" value="通过定时任务脚本,根据oc_order.date_modified的时间，拉取最近【15分钟】更新的订单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290.5" y="50" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BEoCvooL8ucvdSw646bj-4" value="yzc库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BEoCvooL8ucvdSw646bj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.004;entryY=0.656;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BEoCvooL8ucvdSw646bj-4" target="BEoCvooL8ucvdSw646bj-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BEoCvooL8ucvdSw646bj-7" value="DTS同步&lt;br&gt;&lt;div&gt;oc_order&lt;/div&gt;&lt;div&gt;oc_order_product_price_log&lt;/div&gt;&lt;div&gt;oc_futures_margin_agreement&lt;/div&gt;&lt;div&gt;oc_futures_margin_delivery&lt;/div&gt;&lt;div&gt;tb_sys_margin_agreement&lt;/div&gt;&lt;div&gt;oc_order_quote&lt;/div&gt;&lt;div&gt;oc_product_quote&lt;/div&gt;&lt;div&gt;oc_fee_order&lt;/div&gt;&lt;div&gt;oc_fee_order_freight_detail&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="90" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BEoCvooL8ucvdSw646bj-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="BEoCvooL8ucvdSw646bj-9" target="BEoCvooL8ucvdSw646bj-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BEoCvooL8ucvdSw646bj-9" value="数据中心库：rma订单明细表&lt;br&gt;b2b_dwd_trd_complete_rma_order" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="260" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BEoCvooL8ucvdSw646bj-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.878;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BEoCvooL8ucvdSw646bj-4" target="BEoCvooL8ucvdSw646bj-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BEoCvooL8ucvdSw646bj-12" value="&lt;div&gt;DTS同步&lt;br&gt;oc_yzc_rma_order&lt;/div&gt;&lt;div&gt;oc_yzc_rma_order_product&lt;/div&gt;&lt;div&gt;tb_sys_customer_sales_reorder&lt;/div&gt;&lt;div&gt;tb_sys_customer_sales_reorder_line&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BEoCvooL8ucvdSw646bj-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BEoCvooL8ucvdSw646bj-12" target="BEoCvooL8ucvdSw646bj-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BEoCvooL8ucvdSw646bj-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="BEoCvooL8ucvdSw646bj-14" target="BEoCvooL8ucvdSw646bj-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BEoCvooL8ucvdSw646bj-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BEoCvooL8ucvdSw646bj-14" target="BEoCvooL8ucvdSw646bj-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="915" y="260" />
+              <mxPoint x="915" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BEoCvooL8ucvdSw646bj-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="BEoCvooL8ucvdSw646bj-14" target="BEoCvooL8ucvdSw646bj-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BEoCvooL8ucvdSw646bj-14" value="buyer&amp;amp;product_id销售表&lt;br&gt;b2b_dws_trd_buyer_product_order_1d" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="200" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BEoCvooL8ucvdSw646bj-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.035;entryY=0.271;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BEoCvooL8ucvdSw646bj-1" target="BEoCvooL8ucvdSw646bj-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BEoCvooL8ucvdSw646bj-17" value="定时任务&lt;br&gt;每日执行Sql" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="160" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BEoCvooL8ucvdSw646bj-18" value="store维度销售表物化视图&lt;br&gt;view_b2b_dws_trd_seller_store_order_1d" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="122.5" width="260" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="BEoCvooL8ucvdSw646bj-19" value="product维度销售表物化视图&lt;br&gt;view_b2b_dws_trd_product_order_1d" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="225" width="260" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="BEoCvooL8ucvdSw646bj-20" value="buyer维度销售表物化视图&lt;br&gt;view_b2b_dws_trd_buyer_order_1d" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="320" width="260" height="65" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
